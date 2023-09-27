@@ -1,0 +1,261 @@
+.hero-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+/* Navbar Styles */
+
+
+
+
+.navbar-brand {
+  font-weight: bold;
+  color: #10c9c3;
+}
+
+
+.nav-link {
+  color: #333;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #10c9c3;
+}
+
+
+/* Hero Section Styles */
+.hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+/* Section Styles */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.section-subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Project Section Styles */
+.project {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.project-overlay:hover {
+  opacity: 1;
+}
+
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffebfb;
+  margin-bottom: 10px;
+}
+
+
+.project-description {
+  font-size: 16px;
+  color: #fff;
+}
+
+
+/* Contact Section Styles */
+.form-control {
+  margin-bottom: 20px;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fdd8ec;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+.hero {
+  background-image: url('aidanhancock.png');
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  text-align: center;
+}
+.navbar {
+  background-image: url('greynav.png'); /* Set your hero image as the background */
+  background-size: cover;
+  background-position: center;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {background-color:#10c9c3;} /* Blue */
+
+
+.sectioned {
+  background-color: #F5F5F5;
+}
+.progress-bar {
+  background-color: #10c9c3;
+}
+.iconed {
+  background-color: #10c9c3;
+}
+.hero-subtitlee {
+color: #787878;
+}
+.worked {
+  background-color: #F5F5F5;
+}
+
+/* Style for the overlay */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  max-width: 50px; /* Adjust the size of the overlay image as needed */
+  max-height: 50px;
+}
+
+/* Show the overlay on hover */
+.image-container:hover .overlay {
+  display: flex;
+}
+
+
+/* Add this CSS to apply the 'Montserrat' font to the numbers */
+.iconed .container .row .col-sm-3 span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Add this CSS to create space between the text and the top of the page */
+.text-content {
+margin-top: 100px; /* Adjust the spacing as needed */
+}
+
+
+/* Add this CSS to align the text with the start of the progress bars */
+.text-content p {
+margin: 0;
+}
+
+
+/* Add this CSS to ensure the image takes up the full height of the section */
+.image-column {
+height: 100%; /* Use 100vh to make the image column fill the entire viewport height */
+padding: 0;
+margin: 0;
+}
+
+
+/* Add this CSS to ensure the image takes up the full height of the left column */
+.image-column img {
+height: 100%;
+width: 750px;
+}
+.empty {
+background-color: #F5F5F5;
+}
+
+.section-titlee{
+  padding-top: 200px;
+}

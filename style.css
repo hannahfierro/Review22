@@ -6,6 +6,8 @@
 }
 
 
+
+
 .hero-subtitle {
   font-size: 18px;
   margin-bottom: 10px;
@@ -15,7 +17,15 @@
 
 
 
+
+
+
+
 /* Navbar Styles */
+
+
+
+
 
 
 
@@ -26,9 +36,13 @@
 }
 
 
+
+
 .nav-link {
   color: #333;
 }
+
+
 
 
 .nav-link:hover,
@@ -37,11 +51,17 @@
 }
 
 
+
+
 /* Hero Section Styles */
 .hero {
   padding: 100px 0;
   text-align: center;
 }
+
+
+
+
 
 
 
@@ -54,11 +74,15 @@
 }
 
 
+
+
 /* Section Styles */
 .section {
   padding: 80px 0;
   text-align: center;
 }
+
+
 
 
 .section-title {
@@ -68,10 +92,14 @@
 }
 
 
+
+
 .section-subtitle {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+
 
 
 /* Project Section Styles */
@@ -82,6 +110,8 @@
 }
 
 
+
+
 .project-image {
   max-width: 100%;
   height: auto;
@@ -89,9 +119,13 @@
 }
 
 
+
+
 .project-image:hover {
   transform: scale(1.05);
 }
+
+
 
 
 .project-overlay {
@@ -110,9 +144,13 @@
 }
 
 
+
+
 .project-overlay:hover {
   opacity: 1;
 }
+
+
 
 
 .project-title {
@@ -123,16 +161,22 @@
 }
 
 
+
+
 .project-description {
   font-size: 16px;
   color: #fff;
 }
 
 
+
+
 /* Contact Section Styles */
 .form-control {
   margin-bottom: 20px;
 }
+
+
 
 
 /* Footer Styles */
@@ -144,9 +188,13 @@
 }
 
 
+
+
 .footer p {
   margin-bottom: 0;
 }
+
+
 
 
 .hero {
@@ -175,6 +223,8 @@
 .button2 {background-color:#10c9c3;} /* Blue */
 
 
+
+
 .sectioned {
   background-color: #F5F5F5;
 }
@@ -191,11 +241,13 @@ color: #787878;
   background-color: #F5F5F5;
 }
 
+
 /* Style for the overlay */
 .image-container {
   position: relative;
   overflow: hidden;
 }
+
 
 .overlay {
   position: absolute;
@@ -209,15 +261,19 @@ color: #787878;
   align-items: center;
 }
 
+
 .overlay img {
   max-width: 50px; /* Adjust the size of the overlay image as needed */
   max-height: 50px;
 }
 
+
 /* Show the overlay on hover */
 .image-container:hover .overlay {
   display: flex;
 }
+
+
 
 
 /* Add this CSS to apply the 'Montserrat' font to the numbers */
@@ -227,10 +283,15 @@ color: #787878;
 
 
 
+
+
+
 /* Add this CSS to create space between the text and the top of the page */
 .text-content {
 margin-top: 100px; /* Adjust the spacing as needed */
 }
+
+
 
 
 /* Add this CSS to align the text with the start of the progress bars */
@@ -239,12 +300,16 @@ margin: 0;
 }
 
 
+
+
 /* Add this CSS to ensure the image takes up the full height of the section */
 .image-column {
 height: 100%; /* Use 100vh to make the image column fill the entire viewport height */
 padding: 0;
 margin: 0;
 }
+
+
 
 
 /* Add this CSS to ensure the image takes up the full height of the left column */
@@ -256,6 +321,45 @@ width: 750px;
 background-color: #F5F5F5;
 }
 
+
 .section-titlee{
   padding-top: 200px;
+}
+
+
+#forms{
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+ 
+}
+
+
+#formbtn{
+  background-color: #10C9C3;
+  color: white;
+  align-self: center;
+  text-align: center;
+}
+h1{
+  font-family: 'Nunito Sans', sans-serif;
+}
+h2{
+  font-family: 'Nunito Sans', sans-serif;
+}
+h3{
+  font-family: 'Nunito Sans', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+#footer{
+  background-color: #141414;
+  color: #F5F5F5;;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+.section-titlel{
+  padding-top: 100px;
 }
